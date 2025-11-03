@@ -1,0 +1,6 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 14
+names: ['30C', '40C', 'DN_bleach', 'DN_dry_clean', 'DN_iron', 'DN_tumble_dry', 'DN_wash', 'hand_wash', 'iron_low', 'iron_medium', 'non_chlorine_bleach', 'normal_dry_clean_solvents', 'tumble_dry_low', 'tumble_dry_medium']
