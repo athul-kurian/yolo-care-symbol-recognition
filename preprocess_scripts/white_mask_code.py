@@ -1,3 +1,5 @@
+# Script to apply white masks over any irrelevant symbols (labelled as 'z')
+
 import os
 import cv2
 import numpy as np
