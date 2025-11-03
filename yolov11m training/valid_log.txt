@@ -1,0 +1,22 @@
+Ultralytics 8.3.126 🚀 Python-3.11.12 torch-2.6.0+cu124 CUDA:0 (NVIDIA A100-SXM4-40GB, 40507MiB)
+YOLO11m summary (fused): 125 layers, 20,040,826 parameters, 0 gradients, 67.7 GFLOPs
+val: Fast image access ✅ (ping: 0.0±0.0 ms, read: 1325.8±283.6 MB/s, size: 55.5 KB)
+val: Scanning /content/dataset/4-masked-split-no-leak/valid/labels.cache... 216 images, 0 backgrounds, 0 corrupt: 100%|██████████| 216/216 [00:00<?, ?it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 216/216 [00:04<00:00, 51.25it/s]
+                   all        216       1293      0.823       0.86      0.909      0.714
+                   30C         74         86      0.633      0.837      0.835      0.651
+                   40C         77        101      0.655      0.683      0.768      0.599
+             DN_bleach        189        255      0.942      0.956      0.984      0.789
+          DN_dry_clean         86        155      0.945      0.974      0.975      0.788
+               DN_iron         23         23      0.758          1      0.978      0.798
+         DN_tumble_dry        120        159      0.922      0.987       0.99      0.771
+               DN_wash         17         17      0.924      0.717      0.922      0.752
+             hand_wash         36         42      0.945      0.833      0.929      0.683
+              iron_low        123        159      0.872      0.937      0.958       0.77
+           iron_medium         67         70      0.748      0.729      0.835      0.646
+   non_chlorine_bleach         24         24      0.868      0.958      0.962      0.752
+normal_dry_clean_solvents        115        118      0.844      0.964      0.969      0.786
+        tumble_dry_low         42         42      0.699      0.905      0.904       0.69
+     tumble_dry_medium         24         42      0.772      0.565      0.712      0.523
+Speed: 0.4ms preprocess, 13.8ms inference, 0.0ms loss, 1.2ms postprocess per image
+Results saved to yolo-care-symbols/care-symbols-yolov11m-v52
